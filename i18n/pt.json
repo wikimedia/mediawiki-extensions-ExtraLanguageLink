@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vitorvicentevalente"
+		]
+	},
+	"extralanguagelink-param-class": "classe",
+	"extralanguagelink-param-lang": "língua",
+	"extralanguagelink-param-style": "estilo",
+	"extralanguagelink-param-title": "título",
+	"extralanguagelink-badtitle": "O título da página \"$1\" não pôde ser analisado."
+}

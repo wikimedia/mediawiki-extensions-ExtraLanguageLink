@@ -1,9 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Maribel1507"
+			"Maribel1507",
+			"Ihojose"
 		]
 	},
+	"extralanguagelink-desc": "Añadir un enlace de idioma extra en la sección \"en otros idiomas\" de la barra lateral",
+	"extralanguagelink-param-class": "clase",
+	"extralanguagelink-param-hreflang": "hreflang",
+	"extralanguagelink-param-lang": "lang",
 	"extralanguagelink-param-style": "estilo",
-	"extralanguagelink-param-title": "título"
+	"extralanguagelink-param-title": "título",
+	"extralanguagelink-badinterwiki": "El prefijo de interwiki \"$1:\" no está permitido en la lista de prefijos de interwiki.",
+	"extralanguagelink-badtitle": "El título de la página \"$1\" no se pudo analizar."
 }
