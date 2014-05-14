@@ -7,5 +7,6 @@
 	"extralanguagelink-param-hreflang": "hreflang",
 	"extralanguagelink-param-lang": "Sprooch",
 	"extralanguagelink-param-style": "Stil",
-	"extralanguagelink-param-title": "Titel"
+	"extralanguagelink-param-title": "Titel",
+	"extralanguagelink-badtitle": "De Säitentitel \"$1\" konnt net ënnersicht ginn."
 }
