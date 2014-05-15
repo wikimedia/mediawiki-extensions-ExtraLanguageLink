@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ion"
+			"Ion",
+			"Minisarm"
 		]
 	},
-	"extralanguagelink-param-class": "clasa",
-	"extralanguagelink-param-lang": "lang",
+	"extralanguagelink-param-class": "clasă",
+	"extralanguagelink-param-lang": "limbă",
 	"extralanguagelink-param-style": "stil",
 	"extralanguagelink-param-title": "titlu",
-	"extralanguagelink-badinterwiki": "Prefixul interwiki \" $1 :\" nu este în lista prefixelor permise interwiki.",
-	"extralanguagelink-badtitle": "Titlul paginii \" $1 \" nu a putut fi prelucrat."
+	"extralanguagelink-badinterwiki": "Prefixul interwiki „$1:” nu se află în lista prefixelor interwiki permise.",
+	"extralanguagelink-badtitle": "Titlul paginii „$1” nu a putut fi prelucrat."
 }

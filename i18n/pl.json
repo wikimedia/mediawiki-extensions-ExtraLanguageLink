@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Wedkarski"
+			"Wedkarski",
+			"Matik7"
 		]
 	},
-	"extralanguagelink-desc": "Dodaj więcej linków językowych do sekcji sidebara „W innych językach”"
+	"extralanguagelink-desc": "Dodaj więcej linków językowych do sekcji sidebara „W innych językach”",
+	"extralanguagelink-param-lang": "język",
+	"extralanguagelink-param-style": "styl",
+	"extralanguagelink-param-title": "tytuł"
 }
