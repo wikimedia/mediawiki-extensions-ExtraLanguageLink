@@ -8,5 +8,6 @@
 	"extralanguagelink-param-hreflang": "基礎語言",
 	"extralanguagelink-param-lang": "語言",
 	"extralanguagelink-param-style": "樣式",
-	"extralanguagelink-param-title": "標題"
+	"extralanguagelink-param-title": "標題",
+	"extralanguagelink-badtitle": "頁面標題「$1」無法解析。"
 }
