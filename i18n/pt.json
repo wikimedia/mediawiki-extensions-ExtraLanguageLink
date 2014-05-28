@@ -4,6 +4,7 @@
 			"Vitorvicentevalente"
 		]
 	},
+	"extralanguagelink-desc": "Adiciona ligações interlínguas extra na secção \"noutros idiomas\" da barra lateral",
 	"extralanguagelink-param-class": "classe",
 	"extralanguagelink-param-lang": "língua",
 	"extralanguagelink-param-style": "estilo",
