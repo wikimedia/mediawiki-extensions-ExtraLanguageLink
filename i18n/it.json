@@ -5,6 +5,7 @@
 			"Ontsed"
 		]
 	},
+	"extralanguagelink-desc": "Aggiunge ulteriori collegamenti nella sezione \"In altre lingue\" della barra laterale",
 	"extralanguagelink-param-class": "classe",
 	"extralanguagelink-param-lang": "lingua",
 	"extralanguagelink-param-style": "stile",
