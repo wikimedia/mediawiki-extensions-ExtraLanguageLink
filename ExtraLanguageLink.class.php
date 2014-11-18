@@ -25,7 +25,7 @@ class ExtraLanguageLink {
 	 * @return bool
 	 */
 	public static function onParserFirstCallInit( Parser &$parser ) {
-		$parser->setFunctionHook( 'MAG_EXTRALANGUAGELINK', 'ExtraLanguageLink::handleParserFunction', SFH_NO_HASH );
+		$parser->setFunctionHook( 'MAG_EXTRALANGUAGELINK', 'ExtraLanguageLink::handleParserFunction', Parser::SFH_NO_HASH );
 		return true;
 	}
 
