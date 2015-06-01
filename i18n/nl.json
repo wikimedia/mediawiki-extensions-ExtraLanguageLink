@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Esketti"
+		]
+	},
+	"extralanguagelink-desc": "Extra taal links naar de \"in andere talen\" zijbalk",
+	"extralanguagelink-param-class": "Klasse",
+	"extralanguagelink-param-hreflang": "hreflang",
+	"extralanguagelink-param-lang": "lang",
+	"extralanguagelink-param-style": "Stijl",
+	"extralanguagelink-param-title": "Titel",
+	"extralanguagelink-badinterwiki": "De interwiki prefix \"$1\" is niet op de lijst van toegestane interwiki voorvoegsels.",
+	"extralanguagelink-badtitle": "De titel van de pagina \"$1\" kan niet worden geparseerd."
+}
