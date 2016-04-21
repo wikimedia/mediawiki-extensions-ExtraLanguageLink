@@ -1,10 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"YehudaDe"
+			"YehudaDe",
+			"Guycn2"
 		]
 	},
+	"extralanguagelink-desc": "הוספת קישורי שפה נוספים לפסקה \"דף זה בשפות אחרות\" שבתפריט הצד",
 	"extralanguagelink-param-class": "מחלקה",
 	"extralanguagelink-param-lang": "שפה",
-	"extralanguagelink-param-title": "כותרת"
+	"extralanguagelink-param-title": "כותרת",
+	"extralanguagelink-badinterwiki": "הקידומת \"$1:\" אינה נמצאת ברשימת קידומות הבינוויקי המורשות."
 }
