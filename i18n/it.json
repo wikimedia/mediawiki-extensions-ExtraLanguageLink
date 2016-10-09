@@ -2,11 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Beta16",
-			"Ontsed"
+			"Ontsed",
+			"Selven"
 		]
 	},
 	"extralanguagelink-desc": "Aggiunge ulteriori collegamenti nella sezione \"In altre lingue\" della barra laterale",
 	"extralanguagelink-param-class": "classe",
+	"extralanguagelink-param-hreflang": "hreflang",
 	"extralanguagelink-param-lang": "lingua",
 	"extralanguagelink-param-style": "stile",
 	"extralanguagelink-param-title": "titolo",
