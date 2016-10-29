@@ -12,5 +12,5 @@
 	"extralanguagelink-param-style": "estilo",
 	"extralanguagelink-param-title": "título",
 	"extralanguagelink-badinterwiki": "O prefixo interwikis \"$1:\" não consta da lista de prefixos interwikis permitidos.",
-	"extralanguagelink-badtitle": "O título da página \"$1\" não pôde ser analisado."
+	"extralanguagelink-badtitle": "Não foi possível analisar o título da página \"$1\"."
 }
