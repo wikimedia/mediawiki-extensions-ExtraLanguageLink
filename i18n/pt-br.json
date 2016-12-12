@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dianakc"
+			"Dianakc",
+			"!Silent"
 		]
 	},
+	"extralanguagelink-desc": "Adiciona ligações extras para outros idiomas na seção \"noutros idiomas\" da barra lateral",
 	"extralanguagelink-param-class": "class",
 	"extralanguagelink-param-hreflang": "hreflang",
 	"extralanguagelink-param-lang": "lang",
