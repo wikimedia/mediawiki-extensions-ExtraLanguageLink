@@ -5,7 +5,7 @@
 			"Mainframe98"
 		]
 	},
-	"extralanguagelink-desc": "Extra taal links naar de \"in andere talen\" zijbalk",
+	"extralanguagelink-desc": "Voegt extra taalkoppelingen toe in het \"in andere talen\" zijbalkgedeelte",
 	"extralanguagelink-param-class": "klasse",
 	"extralanguagelink-param-hreflang": "hreflang",
 	"extralanguagelink-param-lang": "taal",
