@@ -4,5 +4,6 @@
 			"Red Winged Duck"
 		]
 	},
-	"extralanguagelink-desc": "Дадае дадатковую моўную спасылку ў разьдзел бакавога мэню «на іншых мовах»"
+	"extralanguagelink-desc": "Дадае дадатковую моўную спасылку ў разьдзел бакавога мэню «на іншых мовах»",
+	"extralanguagelink-param-class": "кляса"
 }
