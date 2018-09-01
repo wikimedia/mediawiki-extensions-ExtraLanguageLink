@@ -6,5 +6,6 @@
 	},
 	"extralanguagelink-desc": "Дадае дадатковую моўную спасылку ў разьдзел бакавога мэню «на іншых мовах»",
 	"extralanguagelink-param-class": "кляса",
-	"extralanguagelink-param-hreflang": "мова_спасылкі"
+	"extralanguagelink-param-hreflang": "мова_спасылкі",
+	"extralanguagelink-param-lang": "мова"
 }
