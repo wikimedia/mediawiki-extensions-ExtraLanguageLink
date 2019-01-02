@@ -13,44 +13,16 @@
  * https://www.mediawiki.org/wiki/Extension:ExtraLanguageLink
  */
 
-$wgExtensionCredits['other'][] = array(
-	'path'           => __FILE__,
-	'name'           => 'ExtraLanguageLink',
-	'version'        => '1.0',
-	'author'         => array( 'This, that and the other' ),
-	'url'            => 'https://www.mediawiki.org/wiki/Extension:ExtraLanguageLink',
-	'descriptionmsg' => 'extralanguagelink-desc',
-);
-
-$dir = __DIR__ . '/';
-$wgAutoloadClasses['ExtraLanguageLink'] = $dir . 'ExtraLanguageLink.class.php';
-$wgMessagesDirs['ExtraLanguageLink'] = $dir . 'i18n';
-$wgExtensionMessagesFiles['ExtraLanguageLinkMagic'] = $dir . 'ExtraLanguageLink.magic.php';
-
-$wgHooks['SkinTemplateOutputPageBeforeExec'][] = 'ExtraLanguageLink::onSkinTemplateOutputPageBeforeExec';
-$wgHooks['ParserFirstCallInit'][] = 'ExtraLanguageLink::onParserFirstCallInit';
-$wgHooks['OutputPageParserOutput'][] = 'ExtraLanguageLink::onOutputPageParserOutput';
-
-// Global configuration variables: (see the MediaWiki page for this extension
-// for additional documentation and example configurations)
-
-/**
- * Set this to an array of allowed interwiki prefixes to restrict the use of
- * this extension to certain interwiki prefixes. Set to false to allow all
- * prefixes.
- *
- * NOTE: Prefixes must be in lowercase only!
- *
- * For example: array( 'wikipedia', 'wiktionary', 'c2' )
- */
-$wgExtraLanguageLinkAllowedPrefixes = false;
-
-/**
- * Specify a list of page titles on the wiki where the {{extralanguagelink}}
- * parserfunction is allowed to be used. Set to false to allow use on all pages.
- *
- * NOTE: Use spaces, not underscores, in this array.
- *
- * For example: array( 'Main Page', 'Help:Contents' )
- */
-$wgExtraLanguageLinkAllowedTitles = false;
+if ( function_exists( 'wfLoadExtension' ) ) {
+	wfLoadExtension( 'ExtraLanguageLink' );
+	// Keep i18n globals so mergeMessageFileList.php doesn't break
+	$wgMessagesDirs['ExtraLanguageLink'] = __DIR__ . '/i18n';
+	wfWarn(
+		'Deprecated PHP entry point used for the ExtraLanguageLink extension. ' .
+		'Please use wfLoadExtension instead, ' .
+		'see https://www.mediawiki.org/wiki/Extension_registration for more details.'
+	);
+	return;
+} else {
+	die( 'This version of the ExtraLanguageLink extension requires MediaWiki 1.29+' );
+}
