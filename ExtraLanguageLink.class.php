@@ -139,7 +139,7 @@ class ExtraLanguageLink {
 	*/
 	private static function errorString( $msg, $param ) {
 		$result = '<div class="error">{{';
-		$result .= MagicWord::get( 'MAG_EXTRALANGUAGELINK' )->getSynonym( 0 );
+		$result .= \MediaWiki\MediaWikiServices::getInstance()->getMagicWordFactory()->get( 'MAG_EXTRALANGUAGELINK' )->getSynonym( 0 );
 		$result .= '}}: ' . wfMessage( 'error' )->text() . ': ';
 		$result .= wfMessage( $msg, $param )->text() . '</div>';
 		return $result;
