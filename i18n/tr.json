@@ -10,6 +10,6 @@
 	"extralanguagelink-param-lang": "dil",
 	"extralanguagelink-param-style": "stil",
 	"extralanguagelink-param-title": "başlık",
-	"extralanguagelink-badinterwiki": "Ortak wiki öneki \"$1:\" izin verilen ortak wiki öneki listesinde değil.",
+	"extralanguagelink-badinterwiki": "Vikiarası öneki \"$1:\" izin verilen vikiarası öneki listesinde değil.",
 	"extralanguagelink-badtitle": "\"$1\" sayfa başlığı ayrıştırılamadı."
 }
