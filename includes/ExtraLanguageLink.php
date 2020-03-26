@@ -3,8 +3,8 @@ class ExtraLanguageLink {
 	/**
 	 * Transfer the extra language link data from the OutputPage object to the
 	 * QuickTemplate (skin-specific output) object.
-	 * @param $sk SkinTemplate
-	 * @param $tpl QuickTemplate
+	 * @param SkinTemplate &$sk
+	 * @param QuickTemplate &$tpl
 	 */
 	public static function onSkinTemplateOutputPageBeforeExec( SkinTemplate &$sk, QuickTemplate &$tpl ) {
 		$data = $sk->getOutput()->getProperty( 'extralanguagelinks' );
@@ -21,19 +21,17 @@ class ExtraLanguageLink {
 
 	/**
 	 * Register the parser function.
-	 * @param $parser Parser
-	 * @return bool
+	 * @param Parser $parser
 	 */
-	public static function onParserFirstCallInit( Parser &$parser ) {
+	public static function onParserFirstCallInit( Parser $parser ) {
 		$parser->setFunctionHook( 'MAG_EXTRALANGUAGELINK', 'ExtraLanguageLink::handleParserFunction', Parser::SFH_NO_HASH );
-		return true;
 	}
 
 	/**
 	 * Transfer the extra language link data from the ParserOutput object to the
 	 * OutputPage object.
-	 * @param $out OutputPage
-	 * @param $pout ParserOutput
+	 * @param OutputPage &$out
+	 * @param ParserOutput $pout
 	 * @return bool
 	 */
 	public static function onOutputPageParserOutput( OutputPage &$out, ParserOutput $pout ) {
@@ -46,12 +44,12 @@ class ExtraLanguageLink {
 
 	/**
 	 * Implements the {{extralanguagelink}} parser function.
-	 * @param $parser Parser
-	 * @param $link string Link target
-	 * @param $text string Text of the link
+	 * @param Parser $parser
+	 * @param string $link Link target
+	 * @param string $text Text of the link
 	 * @return string
-	*/
-	public static function handleParserFunction( Parser &$parser, $link, $text /* ... */ ) {
+	 */
+	public static function handleParserFunction( Parser $parser, $link, $text ) {
 		global $wgExtraLanguageLinkAllowedPrefixes, $wgExtraLanguageLinkAllowedTitles;
 
 		// $link is a required parameter
@@ -70,16 +68,16 @@ class ExtraLanguageLink {
 
 		// $link is a crappy default value for the display text, but it will teach
 		// users to provide a proper display text value!
-		$thisLink = array(
+		$thisLink = [
 			'text' => ( empty( $text ) ? $link : $text ),
-		);
+		];
 
 		// handle additional named parameters
 		$extraArgs = array_slice( func_get_args(), 3 );
 		// for grepping i18n keys: extralanguagelink-param-class
 		// extralanguagelink-param-hreflang extralanguagelink-param-lang
 		// extralanguagelink-param-style extralanguagelink-param-title
-		$allowedArgs = array( 'class', 'hreflang', 'lang', 'style', 'title' );
+		$allowedArgs = [ 'class', 'hreflang', 'lang', 'style', 'title' ];
 		foreach ( $extraArgs as $arg ) {
 			// we need an equals sign!
 			if ( strpos( $arg, '=' ) === false ) {
@@ -104,7 +102,8 @@ class ExtraLanguageLink {
 		}
 
 		// generate an appropriate href
-		if ( $title = Title::newFromText( $link ) ) {
+		$title = Title::newFromText( $link );
+		if ( $title ) {
 			$iw = $title->getInterwiki();
 			if (
 				$wgExtraLanguageLinkAllowedPrefixes === false ||
@@ -122,7 +121,7 @@ class ExtraLanguageLink {
 		// add our extra link to the page_props table
 		$output = $parser->getOutput();
 		$property = $output->getProperty( 'extralanguagelinks' );
-		$data = is_string( $property ) ? unserialize( $property ) : array();
+		$data = is_string( $property ) ? unserialize( $property ) : [];
 		$data[] = $thisLink;
 		if ( count( $data ) > 0 ) {
 			$output->setProperty( 'extralanguagelinks', serialize( $data ) );
@@ -133,10 +132,10 @@ class ExtraLanguageLink {
 
 	/**
 	 * Generates a nice error message.
-	 * @param $msg string Message name
-	 * @param $param string The $1 parameter for the message
+	 * @param string $msg Message name
+	 * @param string $param The $1 parameter for the message
 	 * @return string
-	*/
+	 */
 	private static function errorString( $msg, $param ) {
 		$result = '<div class="error">{{';
 		$result .= \MediaWiki\MediaWikiServices::getInstance()->getMagicWordFactory()->get( 'MAG_EXTRALANGUAGELINK' )->getSynonym( 0 );

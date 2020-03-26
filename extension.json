@@ -19,7 +19,7 @@
 		"ExtraLanguageLinkMagic": "ExtraLanguageLink.magic.php"
 	},
 	"AutoloadClasses": {
-		"ExtraLanguageLink": "ExtraLanguageLink.class.php"
+		"ExtraLanguageLink": "includes/ExtraLanguageLink.php"
 	},
 	"Hooks": {
 		"SkinTemplateOutputPageBeforeExec": "ExtraLanguageLink::onSkinTemplateOutputPageBeforeExec",

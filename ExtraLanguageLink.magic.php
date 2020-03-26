@@ -6,8 +6,8 @@
  * @ingroup Extensions
  */
 
-$magicWords = array();
+$magicWords = [];
 
-$magicWords['en'] = array(
-	'MAG_EXTRALANGUAGELINK' => array( 0, 'extralanguagelink' ),
-);
+$magicWords['en'] = [
+	'MAG_EXTRALANGUAGELINK' => [ 0, 'extralanguagelink' ],
+];
