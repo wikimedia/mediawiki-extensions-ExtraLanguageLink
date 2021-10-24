@@ -35,7 +35,12 @@ class ExtraLanguageLink {
 	 * @return bool
 	 */
 	public static function onOutputPageParserOutput( OutputPage &$out, ParserOutput $pout ) {
-		$prop = $pout->getProperty( 'extralanguagelinks' );
+		if ( method_exists( $pout, 'getPageProperty' ) ) {
+			// MW 1.38
+			$prop = $pout->getPageProperty( 'extralanguagelinks' );
+		} else {
+			$prop = $pout->getProperty( 'extralanguagelinks' );
+		}
 		if ( is_string( $prop ) ) {
 			$out->setProperty( 'extralanguagelinks', unserialize( $prop ) );
 		}
@@ -119,12 +124,22 @@ class ExtraLanguageLink {
 		}
 
 		// add our extra link to the page_props table
-		$output = $parser->getOutput();
-		$property = $output->getProperty( 'extralanguagelinks' );
+		$parserOutput = $parser->getOutput();
+		if ( method_exists( $parserOutput, 'getPageProperty' ) ) {
+			// MW 1.38
+			$property = $parserOutput->getPageProperty( 'extralanguagelinks' );
+		} else {
+			$property = $parserOutput->getProperty( 'extralanguagelinks' );
+		}
 		$data = is_string( $property ) ? unserialize( $property ) : [];
 		$data[] = $thisLink;
 		if ( count( $data ) > 0 ) {
-			$output->setProperty( 'extralanguagelinks', serialize( $data ) );
+			if ( method_exists( $parserOutput, 'setPageProperty' ) ) {
+				// MW 1.38
+				$parserOutput->setPageProperty( 'extralanguagelinks', serialize( $data ) );
+			} else {
+				$parserOutput->setProperty( 'extralanguagelinks', serialize( $data ) );
+			}
 		}
 
 		return '';
