@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mirin"
+			"Mirin",
+			"KuboF"
 		]
 	},
+	"extralanguagelink-desc": "Aldonas kromajn lingvajn ligilojn al la sekcio \"En aliaj lingvoj\" en flanka strio",
 	"extralanguagelink-param-class": "klaso",
 	"extralanguagelink-param-hreflang": "hreflingvo",
 	"extralanguagelink-param-lang": "lingvo",
