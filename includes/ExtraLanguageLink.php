@@ -37,7 +37,8 @@ class ExtraLanguageLink {
 	public static function onOutputPageParserOutput( OutputPage &$out, ParserOutput $pout ) {
 		if ( method_exists( $pout, 'getPageProperty' ) ) {
 			// MW 1.38
-			$prop = $pout->getPageProperty( 'extralanguagelinks' );
+			// T301915
+			$prop = $pout->getPageProperty( 'extralanguagelinks' ) ?? false;
 		} else {
 			$prop = $pout->getProperty( 'extralanguagelinks' );
 		}
@@ -127,7 +128,8 @@ class ExtraLanguageLink {
 		$parserOutput = $parser->getOutput();
 		if ( method_exists( $parserOutput, 'getPageProperty' ) ) {
 			// MW 1.38
-			$property = $parserOutput->getPageProperty( 'extralanguagelinks' );
+			// T301915
+			$property = $parserOutput->getPageProperty( 'extralanguagelinks' ) ?? false;
 		} else {
 			$property = $parserOutput->getProperty( 'extralanguagelinks' );
 		}
