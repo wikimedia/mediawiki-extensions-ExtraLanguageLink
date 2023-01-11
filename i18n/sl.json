@@ -4,7 +4,12 @@
 			"Eleassar"
 		]
 	},
+	"extralanguagelink-desc": "V razdelek »V drugih jezikih« doda dodatne jezikovne povezave",
+	"extralanguagelink-param-class": "razred",
+	"extralanguagelink-param-hreflang": "hreflang",
 	"extralanguagelink-param-lang": "jezik",
+	"extralanguagelink-param-style": "slog",
 	"extralanguagelink-param-title": "naslov",
+	"extralanguagelink-badinterwiki": "Interviki predpona »$1:« ni na seznamu dovoljenih interviki predpon.",
 	"extralanguagelink-badtitle": "Naslova strani »$1« ni mogoče razčleniti."
 }
