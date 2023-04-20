@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Kly",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Winston Sung"
 		]
 	},
-	"extralanguagelink-desc": "添加額外語言連結在「其它語言」側邊區塊",
+	"extralanguagelink-desc": "在側邊欄「其它語言」一節新增額外語言連結",
 	"extralanguagelink-param-class": "類",
 	"extralanguagelink-param-hreflang": "基礎語言",
 	"extralanguagelink-param-lang": "語言",
