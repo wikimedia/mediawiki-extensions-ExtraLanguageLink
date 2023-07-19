@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piano1forte2"
+		]
+	},
+	"extralanguagelink-desc": "Add extra language links to the 'in other languages' sidebar section",
+	"extralanguagelink-badinterwiki": "The interwiki prefix '$1:' is not on the list of permitted interwiki prefixes."
+}
