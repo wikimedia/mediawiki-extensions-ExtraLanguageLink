@@ -2,15 +2,16 @@
 	"@metadata": {
 		"authors": [
 			"Айбикә",
-			"Ләйсән"
+			"Ләйсән",
+			"З. ӘЙЛЕ"
 		]
 	},
-	"extralanguagelink-desc": "Ҡабырғалағы панелдәге \"Башҡа телдәрҙә\" өлөшөнә өҫтәмә тел һылтанмалары өҫтәй",
+	"extralanguagelink-desc": "Ҡабырғалағы панелдәге \"Башҡа телдәрҙә\" бүлегенә башҡа телдәргә һылтанмалар өҫтәй",
 	"extralanguagelink-param-class": "класс",
 	"extralanguagelink-param-hreflang": "һылтанма теле",
 	"extralanguagelink-param-lang": "тел",
 	"extralanguagelink-param-style": "стиль",
 	"extralanguagelink-param-title": "атама",
-	"extralanguagelink-badinterwiki": "Рөхсәт ителгән интервики-префикстар исемлегендә «$1:» интервики-префиксы юҡ.",
-	"extralanguagelink-badtitle": "«$1» битенең атамаһы тикшерелә алмай."
+	"extralanguagelink-badinterwiki": "«$1» интервики-префиксы: рөхсәт ителгән интервики-префикстар исемлегендә юҡ.",
+	"extralanguagelink-badtitle": "«$1» битенең атамаһы анализлана алмай."
 }
