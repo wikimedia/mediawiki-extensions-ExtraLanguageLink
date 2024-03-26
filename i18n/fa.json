@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ebraminio",
 			"Reza1615"
 		]
 	},
 	"extralanguagelink-desc": "پیوند زبان‌های دیگر را به بخش «به دیگر زبان‌ها» در نوار کناری بیافزائید",
 	"extralanguagelink-param-class": "رده",
-	"extralanguagelink-param-hreflang": "زبانی که صفحهٔ مقصد با آن نوشته شده‌است",
+	"extralanguagelink-param-hreflang": "زبانی که صفحهٔ مقصد با آن نوشته شده است",
 	"extralanguagelink-param-lang": "زبان",
 	"extralanguagelink-param-style": "سبک",
 	"extralanguagelink-param-title": "عنوان",
