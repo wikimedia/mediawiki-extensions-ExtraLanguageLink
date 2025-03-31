@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Tensama0415",
 			"Ykhwong",
 			"고기랑"
 		]
@@ -9,6 +10,6 @@
 	"extralanguagelink-param-hreflang": "hreflang",
 	"extralanguagelink-param-lang": "언어",
 	"extralanguagelink-param-style": "스타일",
-	"extralanguagelink-param-title": "title",
+	"extralanguagelink-param-title": "제목",
 	"extralanguagelink-badtitle": "\"$1\" 문서 제목의 구문을 분석하지 못했습니다."
 }
