@@ -1,11 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"شاه زمان پټان"
 		]
 	},
+	"extralanguagelink-desc": "\"په نورو ژبو\" څنگپټې برخه کې د زياتي ژبو تړنې ورگډول",
 	"extralanguagelink-param-class": "ټولگی",
+	"extralanguagelink-param-hreflang": "د مخ ليکنې سرچينې ژبه",
 	"extralanguagelink-param-lang": "ژبه",
-	"extralanguagelink-param-style": "توگه",
-	"extralanguagelink-param-title": "سرليک"
+	"extralanguagelink-param-style": "ښودبڼه",
+	"extralanguagelink-param-title": "سرليک",
+	"extralanguagelink-badinterwiki": "د \"$1:\" ويکي‌خپلمنځي مختاړی د ويکي‌خپلمنځي د اجازه ورکړل شوو مختاړو لړليک کې نشته.",
+	"extralanguagelink-badtitle": "\"$1\" مخ سرليک تجزيه نشو."
 }
