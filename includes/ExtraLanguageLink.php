@@ -1,4 +1,7 @@
 <?php
+
+use MediaWiki\Title\Title;
+
 class ExtraLanguageLink {
 	/**
 	 * Transfer the extra language link data from the OutputPage object to the
