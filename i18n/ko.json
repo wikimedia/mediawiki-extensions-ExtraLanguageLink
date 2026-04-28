@@ -6,10 +6,12 @@
 			"Tensama0415"
 		]
 	},
+	"extralanguagelink-desc": "\"다른 언어\" 사이드바 부분에 추가 언어 링크를 추가합니다",
 	"extralanguagelink-param-class": "class",
 	"extralanguagelink-param-hreflang": "hreflang",
 	"extralanguagelink-param-lang": "언어",
 	"extralanguagelink-param-style": "스타일",
 	"extralanguagelink-param-title": "제목",
+	"extralanguagelink-badinterwiki": "\"$1:\" 인터위키 접두사는 허용된 인터위키 접두사 목록에 포함되어 있지 않습니다.",
 	"extralanguagelink-badtitle": "\"$1\" 문서 제목의 구문을 분석하지 못했습니다."
 }
