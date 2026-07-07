@@ -7,7 +7,7 @@
 		]
 	},
 	"extralanguagelink-desc": "\"다른 언어\" 사이드바 부분에 추가 언어 링크를 추가합니다",
-	"extralanguagelink-param-class": "class",
+	"extralanguagelink-param-class": "클래스",
 	"extralanguagelink-param-hreflang": "hreflang",
 	"extralanguagelink-param-lang": "언어",
 	"extralanguagelink-param-style": "스타일",
