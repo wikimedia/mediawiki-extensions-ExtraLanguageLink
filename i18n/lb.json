@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
 	"extralanguagelink-desc": "Setzt extra Sproochlinken an den Abschnitt 'an anere Sproochen' am lénke Menü",
@@ -10,5 +11,5 @@
 	"extralanguagelink-param-lang": "Sprooch",
 	"extralanguagelink-param-style": "Stil",
 	"extralanguagelink-param-title": "Titel",
-	"extralanguagelink-badtitle": "De Säitentitel \"$1\" konnt net ënnersicht ginn."
+	"extralanguagelink-badtitle": "De Säitentitel „$1“ konnt net geparst ginn."
 }
