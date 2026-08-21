@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"extralanguagelink-desc": "Pridáva ďalšie jazykové odkazy do sekcie bočného panela „v iných jazykoch“",
+	"extralanguagelink-param-class": "class",
+	"extralanguagelink-param-hreflang": "hreflang",
+	"extralanguagelink-param-lang": "lang",
+	"extralanguagelink-param-style": "style",
+	"extralanguagelink-param-title": "title",
+	"extralanguagelink-badinterwiki": "Interwiki predpona „$1:“ nie je v zozname povolených interwiki predpôn.",
+	"extralanguagelink-badtitle": "Názov stránky „$1“ sa nepodarilo spracovať."
+}
