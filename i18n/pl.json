@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Matik7",
+			"PanWor",
 			"Vengir",
 			"Wedkarski"
 		]
@@ -13,5 +14,5 @@
 	"extralanguagelink-param-style": "styl",
 	"extralanguagelink-param-title": "tytuł",
 	"extralanguagelink-badinterwiki": "Prefiks „$1:” nie znajduje się na liście dozwolonych prefiksów interwiki.",
-	"extralanguagelink-badtitle": "Strona o nazwie „$1' nie mogła zostać sparsowana."
+	"extralanguagelink-badtitle": "Strona o nazwie „$1” nie mogła zostać sparsowana."
 }
